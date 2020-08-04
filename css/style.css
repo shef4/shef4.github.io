@@ -1133,6 +1133,7 @@ width: 100%;
   left: 30vw;
 }
 #SkContentWrap{
+  padding-bottom: 350px;
 }
 #SkFooter #foldersWindow{
 position: relative;
