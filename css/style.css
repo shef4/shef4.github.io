@@ -185,7 +185,7 @@ nav {
   position: relative;
   top: 0px;
   left: 0px;
-  height: 160px;
+  height: 200px;
   font-size: 15px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -312,7 +312,7 @@ footer {
 /*||||||||||||||*/
 #foldersSection{
   padding: 150px 0 180px 0;
-  width: 100%;
+  width: 92%;
 }
 #foldersSection a div{
   width: 100%;
@@ -342,13 +342,14 @@ footer {
 #foldersSection div a div {
   font-size: 1.9rem;
   padding: 0 0 0 70px;
+  width: 86%;
 }
 .contactContainer #contactIcons{
   position: relative;
   top: 44px;
-  left: 55px;
-  width: 300px;
-  float: bottom;
+  padding: 0;
+  margin: auto;
+  width: 60%;
 }
 .contactContainer #contactIcons a img{
   width: 44px;
@@ -451,14 +452,15 @@ footer {
   font-family: sans-serif;
   font-weight: lighter;
   text-align: center;
-  font-size: 60px;
-  color: #000000;
-
+  font-size: 12.5vw;
+  width: 75vw;
+  color: white;
+  background-color: black;
   margin: 0 auto 0 auto;
 }
 /* Home Page | photography */
 #photographySection{
-  height: 1000px;
+  height: 900px;
 }
 /* photography | Text Window */
 /* photography | Image Window*/
@@ -486,8 +488,6 @@ footer {
 }
 #selectPhotoWindow .foreHead div {
   display: inline;
-  position: relative;
-  top: 3px;
   margin: 0 0px 0 0px;
 }
 #selectPhotoWindow .foreHead #Rarrow {
@@ -585,26 +585,21 @@ footer {
 /* Sk | Image Window*/
 #homeSkVideoWindow {
   position: relative;
-  left: 88px;
-  top: -70px;
-  width: 280px;
+  left: 22vw;
+  top: -200px;
+  width: 75vw;
   height: 181px;
   z-index: 5;
 }
 #homeSkVideoWindow .foreHead {
   position: relative;
-  top: 15px;
+  top: -26px;
   z-index: 5;
-}
-#homeSkVideoWindow .foreHead label{
-  position: relative;
-  top: -80px;
 }
 #homeSkVideo {
   position: relative;
-  width: auto;
-  height: 160px;
-  width: 282px;
+  width: 75.5vw;
+  height: auto;
   right: 0px;
   top: -50px;
  
@@ -618,7 +613,7 @@ footer {
 #skDescriptionWindow {
   position: relative;
   left: 2%;
-  top: 15px;
+  top: -90px;
 
   width: 240px;
   height: auto;
@@ -628,7 +623,7 @@ footer {
 #skDescriptionWindow .foreHead {
   float:left;
   position: relative;
-  top:-100px;
+  top:0px;
 }
 #skDescriptionWindow .textBody {
   height: 233px; 
@@ -641,18 +636,19 @@ footer {
   margin: 0px 5px 4px 5px;
   text-align: left;
   float:left;
-  position: relative;
-  top:-95px;
   font-size: 15px;
   line-height: 18px;
 }
-#skDescriptionWindow .textBody .seeMoreSk {
+ .seeMoreSk {
   position: relative;
-  top: 208px;
-  left: 25px;
-  width: 250px;
+  z-index: 10;
+  width: 130px;
+  top: -60px;
+  left: 5vw;
   font-size: 23px;
-  color: #000000;
+  color: white;
+  background-color: black;
+  padding: 10px 5px 10px 10px;
 }
 /* Sk | profile image Window*/
 .windowContainer .skProfileWindow .skProfile{
@@ -665,15 +661,16 @@ footer {
 }
 .windowContainer .skProfileWindow {
   position: relative;
-  top: 25px;
+  top: -50vw;
   left: 10px;
+  z-index: 5;
   width: 192px;
 }
 /* Sk | Text Window*/
 #skContactWindow {
   position: relative;
   left: 40%;
-  top: -75%;
+  top: -110%;
 
   width: 200px;
   height: auto;
@@ -700,32 +697,40 @@ footer {
 /* Sk | Header Typography*/
 #skSection .projectHeader {
   float: left;
-
+  background-color: rgb(0, 0, 0);
   position: relative;
   top: -19px;
   left: 100px;
   width: auto;
+  padding-left: 10px;
+  padding-right: 130px;
   z-index: 5;
   font-style: normal;
   font-weight: lighter;
   font-size: 75px;
 
-  color: #000000;
+
+  color: white;
 }
 #skSection .projectHeaderSubtext {
-  float: right;
 
   position: relative;
-  top: 15px;
-  left: -40px;
+  top: -60px;
+  left: 205px;
   z-index: 5;
-
+  color: white;
   font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 27px;
 
+  width: 20px;
   margin: 0;
+}
+
+#skSection {
+  position: relative;
+  top: 11vh;
 }
 
 
