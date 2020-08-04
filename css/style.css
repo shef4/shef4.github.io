@@ -176,7 +176,7 @@ nav {
 /* Text Window | Text Formating*/
 #contactWindow {
   position: relative;
-  width: 235px;
+  width: 60vw;
   height: 160px;
   left: 50px;
   top: 415px;
