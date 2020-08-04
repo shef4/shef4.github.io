@@ -285,9 +285,6 @@ footer {
 
 /* Sk Profile Image Window */
 .skProfileWindow {
-  position: relative;
-  left: 46%;
-  top: -35%;
 
   width: 190px;
   height: auto;
@@ -830,28 +827,32 @@ footer {
   width: 3.5em;
 }
 /* Header Container | Image*/
-.skPageHeader #usFlag {
+#usFlag {
   position: absolute;
-  top: 30px;
+  top: 15px;
   left: 63vw;
   width: 15vw;
   height: auto;
   border: 1px solid #000000;
 }
 /* Header Container | Image*/
-.skPageHeader #saFlag {
+#saFlag {
   position: absolute;
-  top: 30px;
-  left: 81vw;
+  top: 55px;
+  left: 63vw;
   width: 15vw;
   height: auto;
+  font: sans-serif;
   border: 1px solid #000000;
 }
 /* Header Container | Container */
 .skPageHeader {
   position: relative;
   top: 60px;
-  margin: 0 0.4em 0 0.4em;
+  margin: 0 2em 0 2em;
+  padding: 0.5em 0em 0.5em 0.5em;
+  background-color: black;
+  color: white;
 }
 /* Sk Page | Description Container*/
 /* Description Container | Text */
@@ -868,13 +869,10 @@ footer {
 /* Sk Profile Image Window | Container*/
 .skDescription .skProfileWindow {
   position: relative;
-  left: -10px;
-  top:5px;
-
-  float: left;
+  top: -50px;
+  left: 0;
   width: 190px;
-  bottom: 55px;
-  margin: 5px 0 0 2px ;
+  z-index: 6;
 }
 .skDescription .skProfileWindow .skProfile{
   width: 192px;
@@ -886,18 +884,13 @@ footer {
 /* Description Container | Sk Logo Image Window */
 /* Sk Logo Image Window | Container*/
 .skLogoWindow {
-    position: relative;
-    top: 10px;
-    right: 0px;
-
-    margin: 0 10px 0 10px ;
+  position: relative;
+  top: -20px;
+  left: 35vw;
+  z-index: 5;
     width: 220px;
     height: auto;
-    float: right;
     font-size: 1;
-}
-.skLogoWindow .foreHead{
-  height: 25px;
 }
 
 /* Sk Logo Image Window | Images*/
@@ -910,15 +903,74 @@ footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
 /* Description Container | Container */
 .skDescription {
     margin-top: 55px;
     padding: 0.7em 0.7em 0 0.7em;
     font-size: 1.3rem;
     letter-spacing: 0.1rem;
-    line-height: 1.4rem
+    line-height: 1.4rem;
+    height: 1550px;
   }
+/* Description Container | Sk Description Window */
+/* Sk desciption Window | Container*/
+#skPgGoalWindow .textBody p, #skPgWhatsNextWindow .textBody p, #skPgHistoryWindow .textBody p, #skPgDescriptionWindow .textBody p{
+  font-size: 0.8em;
+  line-height: 18px;
+  padding-top: 0.3em;
+}
+#skPgDescriptionWindow{
+  position: relative;
+  z-index: 4;
+  width: 70vw;
+}
+#skPgDescriptionWindow .textBody{
+  height: 250px;
+}
+#skPgDescriptionWindow .textBody p{
+  width: 68vw;
+}
+#skPgHistoryWindow{
+  position: relative;
+  top: -70px;
+  left: 40px;
+  z-index: 6;
+  width: 80vw;
+}
+#skPgHistoryWindow .textBody{
+  height: 290px;
+}
+#skPgHistoryWindow .textBody p{
+  width: 78vw;
+}
+#skPgGoalWindow{
+  position: relative;
+  top: -260px;
+  left: 90px;
+  z-index: 6;
+  width: 70vw;
+}
+#skPgGoalWindow .textBody{
+  height: 420px;
+}
+#skPgGoalWindow .textBody p{
+  font-size: 0.8em;
+  line-height: 18px;
+  width: 68vw;
+}
+#skPgWhatsNextWindow{
+  position: relative;
+  left: 35px;
+  top: -240px;
+  z-index: 7;
+  width: 73vw;
+}
+#skPgWhatsNextWindow .textBody{
+  height: 160px;
+}
+#skPgWhatsNextWindow .textBody p{
+  width: 71vw;
+}
 /* Projects Container | Project List container*/
 /* Project List container | Text */
 .skProjectContainerIntro h1{
@@ -962,6 +1014,9 @@ width: 100%;
 }
 /*Project List container | Project | Text */
 .skSubProjectHeader h1 {
+    position: relative;
+    top: -30px;
+    left: 5px;
     font-size: 1.6em;
     font-weight: lighter;
     line-height: 60px;
@@ -969,34 +1024,47 @@ width: 100%;
 }
 /*Project List container | Project | Text */
 .skSubProjectHeader h3 {
+    
     font-size: 1.2em;
     font-weight: lighter;
 }
 /*Project List container | Project | Text */
 .skSubProjectHeader #skSubProjectType {
-    position: relative;
-    bottom: 88px;
-    left: 0;
+  position: relative;
+  top: -110px;
+  left: 5px;
 
     width: 100%;
 }
 /*Project List container | Project | Text */
 .skSubProjectHeader #skSubProjectYear {
-    position: relative;
-    bottom: 63.5px;
-    left: 78vw;
+  position: relative;
+  top: -95px;
+    left: 75vw;
     width: 2em;
     margin: 0 0 0 0;
     
 }
 /*Project List container | Project | Container */
 .skSubProjectHeader{
-    height: 2em;
+    height: 4em;
+    position: relative;
+    top: 40px;
+    border: 1px solid #000000;
+}
+#releaseCampaign .skSubProjectHeader h1{
+  font-size: 1.4em;
+
+}
+#releaseCampaign .skSubProjectHeader{
+  height: 5em;
 }
 /*Project List container | Project | Text */
 .skSubProjectDescription {
-    font-size: 0.8em;
+    font-size: 1em;
     margin: 45px 0 20px 0;
+    
+    padding: 0 1em 0 1em;
 }
 .skProjectContainer:last-child .skSubProject .skSubProjectDescription {
   margin: 75px 0 20px 0;
