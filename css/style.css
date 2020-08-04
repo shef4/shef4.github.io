@@ -1072,9 +1072,12 @@ width: 100%;
 /*Project List container | Project | Container */
 .skSubProject {
     position: relative;
-    bottom: 35px;
+    bottom:0px;
 
     padding: 0 1vw 0 1vw;
+   }
+   #skSubProjectMyCloset {
+    height: 1500px;
    }
 /*Project List container | Project | Container */
 .skProjectContainer {
@@ -1093,9 +1096,43 @@ width: 100%;
     font-size: 1.3rem;
   }
 
-
-
-
+  .subProjectContentMyCloset, .subProjectContentPhotoshootImg{
+  width:60vw;
+}
+#MCJude, #MCDania, #skPhotoshootImg{
+  width:60vw;
+  border: 1px solid #000000;
+}
+#stayhome, #releaseCamp{
+ width: 92vw;
+ border: 1px solid #000000;
+}
+.subProjectContentPhotoshootImg{
+  position: relative;
+  left: 0vw;
+  top: -50px;
+}
+#releaseCamp{
+  width: 80vw;
+  border: 1px solid #000000;
+ }
+ .subProjectContentReleaseCamp{
+   position: relative;
+   left: 10vw;
+  width: 80vw;
+ }
+ #MyClosetDaniaWindow{
+  position: relative;
+  top: -200px;
+  left: 30vw;
+}
+#SkContentWrap{
+  height: 1600vw;
+}
+#SkFooter #foldersWindow{
+position: relative;
+left: 60vw;
+}
 
 
 
@@ -1149,13 +1186,5 @@ width: 100%;
 
 
 @media screen and (min-width: 320px) and (max-width: 812px) and (orientation: landscape) {
-  html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
+  
 }
