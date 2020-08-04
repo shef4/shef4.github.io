@@ -9,6 +9,7 @@
     <title>CHANNEL 4</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" href="img/admin/TabIcon (4).png">
+    <script src="scripts/main.js"></script>
 </head>
 
 <body>
@@ -103,7 +104,7 @@
                         <img class="selectedPhotoImg" src="img/Photographs/1colorsToTheWall.jpg" alt="title">    
                         <img class="selectedPhotoImg" src="img/Photographs/3danceAtTheGallery.jpg" alt="title">
                         <img class="selectedPhotoImg" src="img/Photographs/3harlemStreetwear.jpg" alt="title">  -->   
-                        <img class="selectedPhotoImg" src="img/Photographs/1sundayAtThePark.jpg" alt="title"> 
+                        <img id="SelectedImg" class="selectedPhotoImg" src="img/Photographs/1sundayAtThePark.jpg" alt="title"> 
 
                     </div>     
 
@@ -111,37 +112,37 @@
 
                 <ul id="scrollingImgs">
 
-                    <Div>
+                    <Div >
 
-                        <img class="Hscrollimg" src="img/Photographs/1LASkaterBus.jpg" alt="scroll image">
+                        <img class="Hscrollimg" id="laSkaterhome" onclick="changeImage(this.id);" src="img/Photographs/1LASkaterBus.jpg" alt="scroll image">
                         <label class="Hscrolltext" for="">The_LA_Skater.img</label>
 
                     </Div>
 
                     <Div>
 
-                        <img class="Hscrollimg" src="img/Photographs/1colorsToTheWall.jpg" alt="scroll image">
+                        <img class="Hscrollimg" id="colorstowallhome" onclick="changeImage(this.id);" src="img/Photographs/1colorsToTheWall.jpg" alt="scroll image">
                         <label class="Hscrolltext" for="">Colors_To<br>_The_Wall.img</label>
 
                     </Div>
 
                     <Div>
 
-                        <img class="Hscrollimg" src="img/Photographs/3danceAtTheGallery.jpg" alt="scroll image">
+                        <img class="Hscrollimg" id="thenSheDancedHome" onclick="changeImage(this.id);" src="img/Photographs/3danceAtTheGallery.jpg" alt="scroll image">
                         <label class="Hscrolltext" for="">And_Then<br>_She_Danced.img</label>
 
                     </Div>
 
                     <Div>
 
-                        <img class="Hscrollimg" src="img/Photographs/3harlemStreetwear.jpg" alt="scroll image">
+                        <img class="Hscrollimg" id="harlemStreetwearhome" onclick="changeImage(this.id);" src="img/Photographs/3harlemStreetwear.jpg" alt="scroll image">
                         <label class="Hscrolltext" for="">Harlem_Streetwear.img</label>
 
                     </Div>
 
                     <Div>
 
-                        <img class="Hscrollimg" src="img/Photographs/1sundayAtThePark.jpg" alt="scroll image">
+                        <img class="Hscrollimg" id="sundayattheparkhome" onclick="changeImage(this.id);" src="img/Photographs/1sundayAtThePark.jpg" alt="scroll image">
                         <label class="Hscrolltext" for="">Sunday_At<br>_The_Park.img</label>
 
                     </Div>
