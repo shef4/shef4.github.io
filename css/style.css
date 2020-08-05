@@ -346,15 +346,15 @@ footer {
   padding: 0 0 0 70px;
   width: 88%;
 }
-.contactContainer #contactIcons{
+.contactSection #contactIcons{
   position: relative;
-  top: 44px;
+  top: 0;
   padding: 0;
   margin: auto;
   width: 60%;
 }
-.contactContainer #contactIcons a img{
-  width: 44px;
+.contactSection #contactIcons a img{
+  width: 20%;
   margin: 0 5px 0 5px;
   height: auto;
 }
