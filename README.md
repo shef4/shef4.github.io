@@ -1,4 +1,4 @@
-# CHANNEL 4
+# NETWORK-4
 Hi!
 
 This project is a personal website I developed call Channel4.  I developed this website using mobile first desgin practises and tools such as Figma and Trello. The websiteemade using HTML, CSS and a bit of Javascript. 
