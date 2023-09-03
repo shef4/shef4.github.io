@@ -441,12 +441,12 @@ footer {
   padding-top: 120px;
 }
 /* Home Page | Projects |Background Image */
-#camera {
+/* #camera {
   z-index: 1;
   position: absolute;
   width: 313px;
   top: 750px;
-}
+} */
 /* Home Page | Projects | Text Formating */
 .projectHeader {
   position: relative;
