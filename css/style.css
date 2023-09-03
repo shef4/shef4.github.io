@@ -441,12 +441,12 @@ footer {
   padding-top: 120px;
 }
 /* Home Page | Projects |Background Image */
-/* #camera {
+#camera {
   z-index: 1;
   position: absolute;
   width: 313px;
   top: 750px;
-} */
+}
 /* Home Page | Projects | Text Formating */
 .projectHeader {
   position: relative;
@@ -1237,16 +1237,14 @@ left: 60vw;
   margin: 0 0 0.8vh 0;
   border: 0.8px solid #000000;
 }
-/* 
-@media screen and (min-width: 364px) and (max-width: 501px){
+@media screen and (min-width: 364px) and (max-width: 1002px){
 
   #Warning{
     display: none;
   }
 
-} */
-/* 
-@media screen and (min-width: 501px){
+} 
+@media screen and (min-width: 1002px){
 
   .WebContent{
     display: none;
@@ -1292,4 +1290,4 @@ left: 60vw;
     font-size: 150%;
     font-family: sans-serif;
   }
-} */
+} 
