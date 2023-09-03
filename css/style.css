@@ -1237,14 +1237,14 @@ left: 60vw;
   margin: 0 0 0.8vh 0;
   border: 0.8px solid #000000;
 }
-@media screen and (min-width: 364px) and (max-width: 1002px){
+@media screen and (min-width: 364px) and (max-width: 750px){
 
   #Warning{
     display: none;
   }
 
 } 
-@media screen and (min-width: 1002px){
+@media screen and (min-width: 750px){
 
   .WebContent{
     display: none;
