@@ -135,7 +135,7 @@ nav {
   padding-bottom: 10px;
   padding-left: 10px;
   padding-top: 0px;
-  
+
 }
 #subfolderPhoto img, #subfolderSk img{
   position: relative;
@@ -245,7 +245,7 @@ nav {
 
   width: 28vw;
   height: 30px;
-  
+
 }
 /* Text Window | Image Button*/
 #contactIcons .githubIcon , #contactIcons .linkedInIcon , #contactIcons .igIcon {
@@ -321,20 +321,20 @@ footer {
   width: 100%;
   font-size: 2.3rem;
   padding: 10px;
-  
+
 }
 #foldersSection .projectFolder{
   width: 100%;
   font-size: 2.3rem;
   padding: 10px 0px 0px 10px;
-  
+
 }
 #foldersSection div img, #foldersSection a div img, #foldersSection a .homeFolder img{
   position: relative;
   top: 15px;
   width: 60px;
   height: auto;
-  
+
 }
 #foldersSection div a div img{
   position: relative;
@@ -367,7 +367,7 @@ footer {
 
 
 
-  
+
 
 /*|||||||||||||||*/
 /*|||HOME PAGE|||*/
@@ -411,7 +411,7 @@ footer {
   font-weight: lighter;
   font-size: 40px;
   text-align: center;
-  
+
   font-family: sans-serif;
   margin: 10px 0 0 0;
 }
@@ -482,12 +482,12 @@ footer {
   border: 1px solid #000000;
   border-top: none;
   text-align: left;
-  
+
 }
 #selectPhotoWindow div img {
   width: 9px;
   height: auto;
-  
+
 }
 #selectPhotoWindow .foreHead div {
   display: inline;
@@ -515,14 +515,14 @@ footer {
 }
 /* photography | Container */
 .selectedPhoto{
-  
+
   position: relative;
   top: 160px;
   z-index: 2;
   display: flex;
 }
 .selectedPhoto, .selectedPhotoImg {
-  
+
   z-index: 2;
   display: flex;
 }
@@ -605,8 +605,8 @@ footer {
   height: auto;
   right: 0px;
   top: -50px;
- 
-  
+
+
   border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -629,9 +629,9 @@ footer {
   top:0px;
 }
 #skDescriptionWindow .textBody {
-  height: 233px; 
-  text-align: left; 
-  
+  height: 233px;
+  text-align: left;
+
 }
 #skDescriptionWindow .textBody p {
   width: 95%;
@@ -656,7 +656,7 @@ footer {
 /* Sk | profile image Window*/
 .windowContainer .skProfileWindow .skProfile{
   width: 192px;
-  
+
   border: 1.5px solid #000000;
   border-top: none;
   box-sizing: border-box;
@@ -677,7 +677,7 @@ footer {
 
   width: 200px;
   height: auto;
-  
+
   z-index: 5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -686,7 +686,7 @@ footer {
 }
 #skContactWindow .textBody {
   padding-top: 5px;
-  height: 150px; 
+  height: 150px;
 }
 #skContactWindow .textBody .contactIcons {
   position: relative;
@@ -753,7 +753,7 @@ footer {
 
 
 
-  
+
 
 /*||||||||||||||||*/
 /*|||About PAGE|||*/
@@ -835,7 +835,7 @@ footer {
 
 
 
-  
+
 
 /*|||||||||||||*/
 /*|||Sk PAGE|||*/
@@ -1031,7 +1031,7 @@ footer {
     font-size: 2.5em;
     font-weight: lighter;
     color: white;
-    background-color: black;  
+    background-color: black;
     border-radius: 3px;
 }
 .skProjectContainerIntro h1 span{
@@ -1042,7 +1042,7 @@ footer {
     position: relative;
     bottom: 0px;
 
-    
+
 
     text-align: center;
     width: 100%;
@@ -1072,7 +1072,7 @@ width: 100%;
 }
 /*Project List container | Project | Text */
 .skSubProjectHeader h3 {
-    
+
     font-size: 1.2em;
     font-weight: lighter;
 }
@@ -1091,7 +1091,7 @@ width: 100%;
     left: 75vw;
     width: 2em;
     margin: 0 0 0 0;
-    
+
 }
 /*Project List container | Project | Container */
 .skSubProjectHeader{
@@ -1112,7 +1112,7 @@ width: 100%;
 .skSubProjectDescription {
     font-size: 1em;
     margin: 45px 0 20px 0;
-    
+
     padding: 0 1em 0 1em;
 }
 .skProjectContainer:last-child .skSubProject .skSubProjectDescription {
@@ -1237,15 +1237,15 @@ left: 60vw;
   margin: 0 0 0.8vh 0;
   border: 0.8px solid #000000;
 }
-
+/* 
 @media screen and (min-width: 364px) and (max-width: 501px){
 
   #Warning{
     display: none;
   }
-  
-}
 
+} */
+/* 
 @media screen and (min-width: 501px){
 
   .WebContent{
@@ -1292,4 +1292,4 @@ left: 60vw;
     font-size: 150%;
     font-family: sans-serif;
   }
-}
+} */
